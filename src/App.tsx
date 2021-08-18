@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from "./pages/Home";
 import AnneLouise from "./pages/AnneLouise";
 import Brecho from "./pages/Brecho";
@@ -9,17 +9,20 @@ import PachaMama from "./pages/PachaMama";
 import Cadastro from "./pages/Cadastro";
 import Carrinho from "./pages/Carrinho";
 import './App.css';
+import './global.css';
+import carrinho from './pages/img/carrinho.png';
 
 function App() {
   return (
     <>
       <header>
         <nav className="acesso">
-        <a href="/">Coriolis</a>
+        <a href="/">Home</a>
         <a href="">Quem somos?</a>
-        <a href="">Dúvidas</a>
+        <a href="">Fale Conosco</a>
         <a href="/cadastro">Cadastro</a>
-        <a href="/carrinho">Carrinho</a>
+
+        <a href="/carrinho"><img className="carrinho" src={carrinho} alt="Carrinho de compras"/>Carrinho</a>
         </nav>
         <form action="">
           <input type="text" value="Palavra-Chave" />
@@ -27,6 +30,7 @@ function App() {
         </form>
       </header>
       <main>
+        <h1>Destaques lançamentos</h1>
         <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />
