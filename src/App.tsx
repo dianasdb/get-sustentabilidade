@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Router, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from "./pages/Home";
 import AnneLouise from "./pages/AnneLouise";
 import Brecho from "./pages/Brecho";
@@ -15,9 +15,9 @@ function App() {
     <>
       <header>
         <nav className="acesso">
-        <a href="/">Coriolis</a>
+        <a href="/">Home</a>
         <a href="">Quem somos?</a>
-        <a href="">Dúvidas</a>
+        <a href="">Fale conosco</a>
         <a href="/cadastro">Cadastro</a>
         <a href="/carrinho">Carrinho</a>
         </nav>
