@@ -1,4 +1,10 @@
-.acesso {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-app {
+    background-color: aqua;
     display: flex;
     justify-content: space-around;
 }
@@ -6,4 +12,14 @@
 .carrinho {
     height: 40px;
     width: 50px;
+}
+
+.app-form {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-app {
+    background-color: burlywood;
 }
