@@ -1,4 +1,37 @@
-.anne {
-    height: 60px;
-    width: 60px;
+/* pagina home inicio */
+.home-marcaslogo {
+    height: 100px;
+    width: 100px;
 }
+
+.home-marcastitulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 162, 167);
+    padding: 20px;
+}
+
+.home-marcasdiv{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.home-marcasdiv a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.home-marcasdiv a p{
+    background-color: rgb(160, 101, 160);
+    display: flex;
+    justify-content: center;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+/* pagina home fim */

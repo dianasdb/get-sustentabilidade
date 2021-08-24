@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from "./pages/Home";
+import Home from "./pages/home/index";
 import AnneLouise from "./pages/AnneLouise";
 import Brecho from "./pages/Brecho";
 import ChaoCasa from "./pages/ChaoCasa";
@@ -14,20 +14,21 @@ import carrinho from './pages/img/carrinho.png';
 
 function App() {
   return (
-    <>
+    <div className="home-container">
       <header>
-        <nav className="acesso">
-        <a href="/">Home</a>
-        <a href="">Quem somos?</a>
-        <a href="">Fale Conosco</a>
-        <a href="/cadastro">Cadastro</a>
-
-        <a href="/carrinho"><img className="carrinho" src={carrinho} alt="Carrinho de compras"/>Carrinho</a>
-        </nav>
-        <form action="">
-          <input type="text" value="Palavra-Chave" />
-          <button>Buscar</button>
-        </form>
+        <div className="home-menu">
+          <nav className="home-nav">
+            <a href="/">Home</a>
+            <a href="">Quem somos?</a>
+            <a href="">Fale Conosco</a>
+            <a href="/cadastro">Cadastro</a>
+            <a href="/carrinho"><img className="carrinho" src={carrinho} alt="Carrinho de compras"/>Carrinho</a>
+          <form action="">
+            <input type="text" value="Palavra-Chave" />
+            <button>Buscar</button>
+          </form>
+          </nav>
+        </div>
       </header>
       <main>
         <h1>Destaques lançamentos</h1>
@@ -44,12 +45,14 @@ function App() {
         </Switch>
         </BrowserRouter>
       </main>
-      <footer>
-        Contato
-        E-mail:
-        Telefone:
+      <footer className="footer-container">
+        
+        <p>E-mail: emailpessoal@gmail.com</p>
+        <p>Telefone: (16)99999-9999</p>
+        <p>Telefone: (16)99999-9999</p>
+        <p>Contato</p>
       </footer>
-   </>
+   </div>
   );
 }
 
