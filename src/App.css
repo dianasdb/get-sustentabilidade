@@ -1,7 +1,9 @@
-
-
 .acesso {
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
+}
+
+.carrinho {
+    height: 40px;
+    width: 50px;
 }
