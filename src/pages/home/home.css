@@ -1,4 +1,46 @@
-.anne {
-    height: 60px;
-    width: 60px;
+/* pagina home inicio */
+.home-marcaslogo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
+
+.home-marcastitulo{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(44, 162, 167);
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.home-marcasdiv{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.home-marcasdiv a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.home-marcasdiv a p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+a:link{
+    text-decoration: none;
+
+}
+
+.home-marcasbutton{
+    border-radius: 100%;
+}
+
+/* pagina home fim */
