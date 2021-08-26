@@ -48,12 +48,12 @@ const Home = () => {
                     </Link>
                 </div>
                 <div>
-                    <div>
+                    <div className="home-projeto">
                         <h2>Conheça o projeto</h2>
                     </div>
                     <div>
                         <Link to="">
-                            <img className="" src={annelouise} alt="Logo Anne Louise" width="100%" height="450px"/>
+                            <iframe width="1342" height="515" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                         </Link>
                     </div>
                 </div>

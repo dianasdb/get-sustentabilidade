@@ -8,7 +8,7 @@
 .home-marcastitulo{
     display: flex;
     justify-content: center;
-    background-color: rgb(44, 162, 167);
+    background-color: rgb(195, 129, 103);
     padding: 20px;
     color: white;
     font-size: 30px;
@@ -19,6 +19,12 @@
     justify-content: center;
     margin: 30px;
 }
+
+.home-marcasdiv button:hover {
+    background-color: rgb(235, 207, 207);
+    opacity: 0.5;
+}
+
 .home-marcasdiv a {
     display: flex;
     flex-direction: column;
@@ -29,9 +35,17 @@
 .home-marcasdiv a p{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
+    font-weight: 500;
     padding: 5px;
     font-size: 20px;
+}
+
+.home-projeto {
+    background-color: rgb(195, 129, 103);
+    padding: 10px;
+    color: white;
+    font-size: 25px;
 }
 
 a:link{

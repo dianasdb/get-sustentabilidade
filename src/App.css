@@ -1,21 +1,74 @@
 .home-container{
-    background-color: rgb(168, 168, 219);
+    
     display: flex;
     flex-direction: column;
 }
 .home-nav {
     display: flex;
     justify-content: space-around;
+    padding: 15px;
 }
+
+.home-nav2 input {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.home-nav2 button {
+    background-color: black;
+    width: 100px;
+    height: 27px;
+    border-radius: 5px;
+    color: white;
+}
+
+.home-nav2 button:hover {
+    background-color: rgb(124, 123, 123);
+}
+
+.home-nav2 a:hover {
+    background-color: rgb(233, 174, 151);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home-nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.home-nav2 a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-nav a:hover {
+    background-color: rgb(233, 174, 151);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .carrinho {
     height: 40px;
     width: 50px;
+    border-radius: 50%;
 }
 .home-menu{
-    background-color: rgb(221, 112, 112);
+    background-color: rgb(195, 129, 103);
 }
 .footer-container {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(195, 129, 103);
     color: white;
     display: flex;
     justify-content: center;
@@ -23,6 +76,8 @@
 }
 .footer-container p{
     margin: 30px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .slider-main{
 }

@@ -1,6 +1,6 @@
-import Imagem1 from '../../pages/img/imagem1.jpg'
-import Imagem2 from '../../pages/img/imagem2.jpg'
-import Imagem3 from '../../pages/img/imagem3.jpg'
+import Imagem1 from '../../pages/img/slide1.jpg'
+import Imagem2 from '../../pages/img/slide2.jpg'
+import Imagem3 from '../../pages/img/slide3.jpg'
 
 
 
@@ -15,13 +15,13 @@ const SliderComponent = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={Imagem1} className="d-block w-100" alt="..." height="450"/>
+                        <img src={Imagem1} className="d-block w-100" alt="..." height="350px"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={Imagem2} className="d-block w-100" alt="..." height="450"/>
+                        <img src={Imagem2} className="d-block w-100" alt="..." height="350px"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={Imagem3} className="d-block w-100" alt="..." width="450" height="500"/>
+                        <img src={Imagem3} className="d-block w-100" alt="..." height="350px"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
