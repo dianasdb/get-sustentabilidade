@@ -43,11 +43,11 @@ const Anne = () => {
         </div>
         <p className="prod-catal">Produtos / Catálogo</p>
             <div className="produtos-anne">
-                  <div>
+                  
                     <img src ={gloss}  className="gloss"  alt="batom cremoso" />
                     <h2>Titulo</h2>
                     <h3>preço</h3>
-                  </div>
+                
                 <img src ={gloss2} className="gloss2" alt="batom cremoso"/>
                 <img src ={mascaracilios} className="rimel" alt="rímel" />
                 <img src ={lip} className="lip" alt= "batons"/>

@@ -21,16 +21,15 @@ div .slider-annelou{
 
 .produtos-anne {
     display: flex;
-    width: 70px;
-    height: 100px;
-    
-    
-    
-   
-    
+    flex-direction: row;
+    justify-content: center;
+     
 }
 
-
+.produtos-anne img{
+    width: 80px;
+    height: 70px;
+}
     
 
 
