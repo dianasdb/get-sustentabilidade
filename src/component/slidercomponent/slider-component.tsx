@@ -1,19 +1,12 @@
-import './anne.css';
-import annelouise from '../img/annelouise.jpeg'
-import gloss from '../img/gloss.jpeg'
-import aromatizador from '../img/aromatizador.jpeg'
-import mascaracilios from '../img/mascaracilios.jpeg'
-import gloss2 from '../img/gloss2.jpeg'
-import mascaraflor from '../img/mascaraflor.jpeg'
-import lip from '../img/lip.jpeg'
+import Imagem1 from '../../pages/img/imagem1.jpg'
+import Imagem2 from '../../pages/img/imagem2.jpg'
+import Imagem3 from '../../pages/img/imagem3.jpg'
 
-const Anne = () => {
+
+
+const SliderComponent = () => {
     return (
-        <>
-        <img className="logo-Anne" src={annelouise} alt="logo"/>
-        <h1>Anne Louise</h1>
-        <p> Destaques / Lançamentos </p>
-        <div className="slider-annelou">
+        <div className="slider-main">
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -22,13 +15,13 @@ const Anne = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={gloss} className="d-block w-100" alt="..." height="450" />
+                        <img src={Imagem1} className="d-block w-100" alt="..." height="450"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={aromatizador} className="d-block w-100" alt="..."height="450"/>
+                        <img src={Imagem2} className="d-block w-100" alt="..." height="450"/>
                     </div>
                     <div className="carousel-item">
-                        <img src={mascaracilios} className="d-block w-100" alt="..."height="450"  />
+                        <img src={Imagem3} className="d-block w-100" alt="..." width="450" height="500"/>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -41,26 +34,8 @@ const Anne = () => {
                 </button>
             </div>
         </div>
-        <p className="prod-catal">Produtos / Catálogo</p>
-            <div className="produtos-anne">
-                  <div>
-                    <img src ={gloss}  className="gloss"  alt="batom cremoso" />
-                    <h2>Titulo</h2>
-                    <h3>preço</h3>
-                  </div>
-                <img src ={gloss2} className="gloss2" alt="batom cremoso"/>
-                <img src ={mascaracilios} className="rimel" alt="rímel" />
-                <img src ={lip} className="lip" alt= "batons"/>
-                <img src ={aromatizador} className="aromatizador" alt="perfume para ambientes"/>
-                <img src ={mascaraflor} className="mascaraflor"  alt="rímel"/> 
-
-            
-            </div>
-        );
-
-
-        </>
-    )
+    );
 }
 
-export default Anne;
+
+export default SliderComponent;
