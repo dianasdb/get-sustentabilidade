@@ -6,10 +6,11 @@ import mascaracilios from '../img/mascaracilios.jpeg'
 import gloss2 from '../img/gloss2.jpeg'
 import mascaraflor from '../img/mascaraflor.jpeg'
 import lip from '../img/lip.jpeg'
+import Base from '../../component/page/base'
 
 const Anne = () => {
     return (
-        <>
+        <Base>
         <img className="logo-Anne" src={annelouise} alt="logo"/>
         <h1>Anne Louise</h1>
         <p> Destaques / Lançamentos </p>
@@ -59,7 +60,7 @@ const Anne = () => {
         );
 
 
-        </>
+        </Base>
     )
 }
 

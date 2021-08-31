@@ -16,13 +16,13 @@ const Home = () => {
             <div>
                 <h2 className="home-marcastitulo">Marcas</h2>
                 <div className="home-marcasdiv">
-                    <Link to="/annelouise">
+                    <Link to="/loja/4">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={annelouise} alt="Logo Anne Louise"/>
                         </button>
                         <p>Anne Louise</p>
                     </Link>
-                    <Link to="/jausei">
+                    <Link to="/loja/:id">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={jausei} alt="Logo Anne Louise"/>
                         </button>
