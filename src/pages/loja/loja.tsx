@@ -30,7 +30,7 @@ const LojaPage: FunctionComponent = () => {
                 setProdutos(produtos)
                 
             })
-        }
+        },[]
     )
 
     return(
