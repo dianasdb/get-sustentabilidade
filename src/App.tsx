@@ -47,7 +47,7 @@ function App() {
           <Route path="/pachamama" exact component={PachaMama} />
           <Route path="/cadastro" exact component={Cadastro} />
           <Route path="/carrinho" exact component={Carrinho} />
-          <Route path="/loja/:id" exact component={LojaPage} />
+          <Route path="/lojas/:id" exact component={LojaPage} />
         </Switch>
         </BrowserRouter>
       </main>

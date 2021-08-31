@@ -53,8 +53,7 @@
 
 .home-nav a:hover {
     background-color: rgb(233, 174, 151);
-    padding: 10px;
-    border-radius: 5px;
+    padding-bottom: 5px;
 }
 
 .carrinho {

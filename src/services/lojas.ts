@@ -8,7 +8,10 @@ const lojasService = {
             const loja: Loja = res.data
             callback(loja)
         })
-    } 
+        .catch((error) => {
+            alert(error)
+        })
+    }
 }
 
 export default lojasService;

@@ -15,6 +15,7 @@ const Home = () => {
             </div>
             <div>
                 <h2 className="home-marcastitulo">Marcas</h2>
+                
                 <div className="home-marcasdiv">
                     <Link to="/annelouise">
                         <button className="home-marcasbutton">
@@ -22,24 +23,28 @@ const Home = () => {
                         </button>
                         <p>Anne Louise</p>
                     </Link>
+
                     <Link to="/jausei">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={jausei} alt="Logo Anne Louise"/>
                         </button>
                         <p>Já usei</p>
                     </Link>
+
                     <Link to="/chaodecasa">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={chaodecasa} alt="Logo Anne Louise"/>
                         </button>
                         <p>Chão de Casa</p>
                     </Link>
+
                     <Link to="/divinafulo">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={divinafulo} alt="Logo Anne Louise"/>
                         </button>
                         <p>Divina Fulô</p>
                     </Link>
+
                     <Link to="/pachamama">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={pachamama} alt="Logo Anne Louise"/>
@@ -51,7 +56,7 @@ const Home = () => {
                     <div className="home-projeto">
                         <h2>Conheça o projeto</h2>
                     </div>
-                    <div>
+                    <div className="home-video">
                         <Link to="">
                             <iframe width="1342" height="515" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
                         </Link>
