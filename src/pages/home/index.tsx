@@ -6,10 +6,11 @@ import divinafulo from '../img/divinafulo.jpeg';
 import pachamama from '../img/pachamama.jpeg';
 import SliderComponent from '../../component/slidercomponent/slider-component';
 import './home.css';
+import Base from '../../component/page/base';
 
 const Home = () => {
     return(
-        <>
+        <Base>
             <div>
                 <SliderComponent/>
             </div>
@@ -58,7 +59,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </Base>
     )
 }
 

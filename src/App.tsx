@@ -7,7 +7,6 @@ import Carrinho from "./pages/Carrinho";
 import LojaPage from "./pages/loja/loja";
 import './App.css';
 import './global.css';
-import carrinho from './pages/img/carrinho.png';
 function App() {
   return (
     
