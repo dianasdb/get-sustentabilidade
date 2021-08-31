@@ -16,7 +16,7 @@ function App() {
           <Route path="/annelouise" exact component={AnneLouise} />
           <Route path="/cadastro" exact component={Cadastro} />
           <Route path="/carrinho" exact component={Carrinho} />
-          <Route path="/loja/:id" exact component={LojaPage} />
+          <Route path="/lojas/:id" exact component={LojaPage} />
         </Switch>
         </BrowserRouter>
       
