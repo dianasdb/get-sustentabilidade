@@ -24,7 +24,7 @@ const Home = () => {
                         </button>
                         <p>Anne Louise</p>
                     </Link>
-                    <Link to="/loja/:id">
+                    <Link to="/loja/5">
                         <button className="home-marcasbutton">
                             <img className="home-marcaslogo" src={jausei} alt="Logo Anne Louise"/>
                         </button>
